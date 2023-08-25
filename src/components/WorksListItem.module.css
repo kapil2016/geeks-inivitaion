@@ -1,0 +1,96 @@
+.btn_white {
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    /* background-color: #FFFFFF; */
+}
+
+.hover_class {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.tags{
+    margin-bottom: 30px;
+  
+}
+
+.content{
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    /* font-family: "brandon_text_regularregular", Helvetica, Arial, sans-serif; */
+
+}
+.content p{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;  
+}
+
+.subtitle{
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    opacity: .6;
+    padding: 0 0 35px 0;
+    font-weight: normal;
+}
+
+.text h3{
+    font-size: 60px;
+}
+.text{
+    margin-bottom: 2rem;
+}
+.text__w{
+    width: 50%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 100%;
+    visibility: hidden;
+}
+
+.img-w{
+ width: 100%;
+ padding-left: 2rem;
+ padding-right: 2rem;
+}
+.img-w img{
+    width: 100%;
+}
+
+.img-block{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.works-list__item{
+   display: flex;
+   /* height: 100vh; */
+   max-height: fit-content;
+   align-items: center;
+   padding: 40px;
+   background: transparent;
+}
+
+/* CSS */
+@keyframes slideUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .popup {
+    animation: slideUp 1.5s ease-out;
+    visibility: visible;
+  }
+  

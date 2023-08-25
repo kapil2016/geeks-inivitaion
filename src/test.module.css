@@ -1,0 +1,9 @@
+.btn_white {
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+}
+
+.hover_class{
+    background: rgb(255, 255, 255);
+    color: black;
+}

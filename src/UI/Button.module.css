@@ -1,0 +1,35 @@
+.btn {
+
+    text-decoration: none;
+    /* background: transparent; */
+    white-space: wrap;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50px;
+    min-width: 250px;
+    max-width: 100%;
+    font-size: 20px;
+    font-family: "brandon_text_regularregular", Helvetica, Arial, sans-serif;
+    padding: 11px 30px 14px 30px;
+    transition: color 0.3s ease-out, border-color 0.3s ease-out, background 0.3s ease-out, background-color 0.3s ease-out;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+.btn:hover {
+    transition: color 0.3s ease-out, border-color 0.3s ease-out, background 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    /* background-color: blue; */
+}
+
+.arrow {
+    position: relative;
+    left: 0.5rem;
+    transition: left 0.3s ease-out;
+}
+
+.btn:hover .arrow {
+    left: 1rem;
+    transition: left 0.3s ease-out;
+}
